@@ -5,7 +5,7 @@ def lettuce () :
 def tomato () :
     print ("O O O O O O")
 def ham ():
-    print("-----------")
+    print("============")
 
 bread()
 lettuce()
