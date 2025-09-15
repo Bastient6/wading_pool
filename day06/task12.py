@@ -7,9 +7,10 @@ def tomato () :
 def ham ():
     print("============")
 
-bread()
-lettuce()
-tomato()
-ham()
-ham()
-bread()
+def make_sandwich():
+    bread()
+    lettuce()
+    tomato()
+    ham()
+    ham()
+    bread()
