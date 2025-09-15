@@ -1,0 +1,12 @@
+[bastien@bastien-vivobookasuslaptopx515eaa1500ea day02]$ python
+Python 3.13.7 (main, Aug 15 2025, 12:34:02) [GCC 15.2.1 20250813] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 1+1
+2
+>>> 30+12
+42
+>>> 777+(-735)
+42
+>>> 1+2+3+5+7+11+13
+42
+>>> 

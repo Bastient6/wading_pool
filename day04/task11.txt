@@ -1,0 +1,8 @@
+(42 > 12) : true 42 est strictement suppérrieur à 12
+(12 == 12) : true 12 est strictement égale à 12
+(12 === 12) : erreur (un = en trop)
+(”hello” == ”world”) : false hello est strictement égale à world
+(218 >= 118) : true 218 est suppérrieur ou égale à 118
+("a".upper() == "A") : true "a".upper() signifie "A" donc "A" est strictement égale à "A"
+(1*2*3*4 <= 9) : false 24 est inferrieur ou égale à 9 
+("z" in "azerty") : true "z" est présent dans la chaine de caractère "azerty"

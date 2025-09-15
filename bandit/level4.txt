@@ -1,0 +1,20 @@
+bandit4@bandit:~$ ls
+inhere
+bandit4@bandit:~$ cd inhere/
+bandit4@bandit:~/inhere$ ls
+-file00  -file01  -file02  -file03  -file04  -file05  -file06  -file07  -file08  -file09
+bandit4@bandit:~/inhere$ find . -type f | file . -f -
+./-file07: ASCII text
+./-file03: data
+./-file08: data
+./-file05: data
+./-file06: data
+./-file09: data
+./-file00: data
+./-file04: data
+./-file02: data
+./-file01: data
+.: directory
+bandit4@bandit:~/inhere$ cat < -file07
+4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+bandit4@bandit:~/inhere$

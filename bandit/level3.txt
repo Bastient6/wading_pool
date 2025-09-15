@@ -1,0 +1,12 @@
+bandit3@bandit:~$ ls
+inhere
+bandit3@bandit:~$ cd inhere/
+bandit3@bandit:~/inhere$ ls -la
+total 12
+drwxr-xr-x 2 root    root    4096 Aug 15 13:16 .
+drwxr-xr-x 3 root    root    4096 Aug 15 13:16 ..
+-rw-r----- 1 bandit4 bandit3   33 Aug 15 13:16 ...Hiding-From-You
+bandit3@bandit:~/inhere$ cat ...Hiding-From-You 
+2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+bandit3@bandit:~/inhere$ 
+

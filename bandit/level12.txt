@@ -1,0 +1,51 @@
+bandit12@bandit:/tmp/tmp12$ ls
+data.txt
+bandit12@bandit:/tmp/tmp12$ cat data.txt 
+00000000: 1f8b 0808 0933 9f68 0203 6461 7461 322e  .....3.h..data2.
+1f8b => gzip
+xxd -r data.txt
+mv data.txt data.gz
+gzip -d data.gz
+bandit12@bandit:/tmp/tmp12$ xxd data
+00000000: 425a 6839 3141 5926 5359 be9d 9d96 0000  BZh91AY&SY......
+425a => bzip2
+bandit12@bandit:/tmp/tmp12$ mv data data.bz2
+bandit12@bandit:/tmp/tmp12$ bzip2 -d data.bz2
+bandit12@bandit:/tmp/tmp12$ xxd data
+00000000: 1f8b 0808 0933 9f68 0203 6461 7461 342e  .....3.h..data4.
+1f8b => gzip
+bandit12@bandit:/tmp/tmp12$ mv data data.gz
+bandit12@bandit:/tmp/tmp12$ gzip -d data.gz 
+bandit12@bandit:/tmp/tmp12$ xxd data > databis.txt
+bandit12@bandit:/tmp/tmp12$ da
+dash  date  
+bandit12@bandit:/tmp/tmp12$ da
+dash  date  
+bandit12@bandit:/tmp/tmp12$ head databis.txt 
+00000000: 6461 7461 352e 6269 6e00 0000 0000 0000  data5.bin.......
+data5.bin => nom du fichier en  tar
+bandit12@bandit:/tmp/tmp12$ tar -xf data
+-xf (extract archive)
+bandit12@bandit:/tmp/tmp12$ xxd data5.bin
+00000000: 6461 7461 362e 6269 6e00 0000 0000 0000  data6.bin.......
+bandit12@bandit:/tmp/tmp12$ mv data5.bin data5
+bandit12@bandit:/tmp/tmp12$ tar -xf data5
+bandit12@bandit:/tmp/tmp12$ xxd data6.bin 
+00000000: 425a 6839 3141 5926 5359 715d fde3 0000  BZh91AY&SYq]....
+425a => bzip2
+bandit12@bandit:/tmp/tmp12$ xxd data6.gz.out 
+00000000: 6461 7461 382e 6269 6e00 0000 0000 0000  data8.bin.......
+data8.bin => nom du fichier en  tar
+bandit12@bandit:/tmp/tmp12$ xxd data8.bin 
+00000000: 1f8b 0808 0933 9f68 0203 6461 7461 392e  .....3.h..data9.
+00000010: 6269 6e00 0bc9 4855 2848 2c2e 2ecf 2f4a  bin...HU(H,.../J
+00000020: 51c8 2c56 70f3 374d 2977 2b4e 3648 4e4a  Q.,Vp.7M)w+N6HNJ
+00000030: f4cc f430 c8b0 f032 4a0d cd2e 362a 4b09  ...0...2J...6*K.
+00000040: 7129 77cc e302 003e de32 4131 0000 00    q)w....>.2A1...
+bandit12@bandit:/tmp/tmp12$ mv data8.bin data8.gz
+bandit12@bandit:/tmp/tmp12$ gzip -d data8.gz 
+bandit12@bandit:/tmp/tmp12$ ls
+data8
+bandit12@bandit:/tmp/tmp12$ cat data8 
+The password is FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+bandit12@bandit:/tmp/tmp12$ 

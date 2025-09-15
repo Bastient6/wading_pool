@@ -1,0 +1,8 @@
+bandit6@bandit:~$ cd /
+bandit6@bandit:/$ ls -laR | grep "bandit7 bandit6"
+-rw-r----- 1 bandit7 bandit6      33 Aug 15 13:16 bandit7.password
+bandit6@bandit:/$ find . -name "bandit7.password"
+./var/lib/dpkg/info/bandit7.password
+bandit6@bandit:/$ cat < ./var/lib/dpkg/info/bandit7.password
+morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+

@@ -1,0 +1,4 @@
+84/2 = 42.0 il y a le résultat préci avec la virgule
+84//2= 42 il n'y a pas de virgule moins préci par exemple 
+ex: 83/2 = 41.5
+    83//2 = 41

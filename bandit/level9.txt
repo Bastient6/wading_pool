@@ -1,0 +1,18 @@
+bandit9@bandit:~$ strings data.txt | grep =
+========== the
+S=s*$u
+[=u~]/
+hW\=
+=}y2|
+=RiaT
+1j=\
+========== password
+f=+n
+Q========== is%
+="K@
+n7X=
+F<'=
+!=v5~6
+>u`9J========== FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+Fb=G
+bandit9@bandit:~$ 

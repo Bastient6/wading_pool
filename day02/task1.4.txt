@@ -1,0 +1,8 @@
+ZeroDivisionError: division by zero
+>>> 84/(8+(-3)+(-7)+2)
+Traceback (most recent call last):
+  File "<python-input-2>", line 1, in <module>
+    84/(8+(-3)+(-7)+2)
+    ~~^^~~~~~~~~~~~~~~
+
+division par 0 impossible

@@ -1,0 +1,31 @@
+bandit5@bandit:~$ ls
+inhere
+bandit5@bandit:~$ cd inhere/
+bandit5@bandit:~/inhere$ ls -las * | grep 1033
+ 4 -rw-r-----  1 root bandit5 1033 Aug 15 13:16 .file2
+bandit5@bandit:~/inhere$ find . -name '.file2'
+./maybehere18/.file2
+./maybehere05/.file2
+./maybehere08/.file2
+./maybehere13/.file2
+./maybehere16/.file2
+./maybehere14/.file2
+./maybehere07/.file2
+./maybehere00/.file2
+./maybehere17/.file2
+./maybehere15/.file2
+./maybehere10/.file2
+./maybehere12/.file2
+./maybehere06/.file2
+./maybehere04/.file2
+./maybehere03/.file2
+./maybehere02/.file2
+./maybehere19/.file2
+./maybehere11/.file2
+./maybehere09/.file2
+./maybehere01/.file2
+bandit5@bandit:~/inhere$ cat ./maybehere07/
+-file1        .file1        -file2        .file2        -file3        .file3        spaces file1  spaces file2  spaces file3  
+bandit5@bandit:~/inhere$ cat ./maybehere07/.file2
+HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+bandit5@bandit:~$

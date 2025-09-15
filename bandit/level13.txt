@@ -1,0 +1,22 @@
+add ~/.ssh/config 
+Host serveur1
+  HostName bandit.labs.overthewire.org
+  User bandit14
+  Port 2220
+  IdentityFile /home/bastien/.ssh/id_rsa_1
+
+add ~/.ssh/id_rsa_1
+chmod 600 id_rsa_1
+ssh serveur1
+bandit14@bandit:~$ cd /etc/b
+bandit_pass/       bash_completion.d/ behemoth_pass/     binfmt.d/          byobu/
+bandit14@bandit:~$ cd /etc/bandit_pass/
+bandit14@bandit:/etc/bandit_pass$ ls
+bandit0   bandit12  bandit16  bandit2   bandit23  bandit27  bandit30  bandit4  bandit8
+bandit1   bandit13  bandit17  bandit20  bandit24  bandit28  bandit31  bandit5  bandit9
+bandit10  bandit14  bandit18  bandit21  bandit25  bandit29  bandit32  bandit6
+bandit11  bandit15  bandit19  bandit22  bandit26  bandit3   bandit33  bandit7
+bandit14@bandit:/etc/bandit_pass$ cat bandit14
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+bandit14@bandit:/etc/bandit_pass$ 
+
