@@ -13,42 +13,43 @@ Le but est de deviner le mot avant que le pendu ne soit complètement dessiné.
 Installer Pygame :
 ```bash
 pip install pygame
+```
 
 ## ▶️ Lancer le jeu
 
 Dans le terminal, exécutez :
 ```bash
 python hangman.py
+```
 
-
-##🎯 Règles du jeu
+## 🎯 Règles du jeu
 
 - 5 niveaux de difficulté
 
 - 60 secondes pour trouver le mot
 
--Si le temps est écoulé, vous perdez une vie
+- Si le temps est écoulé, vous perdez une vie
 
--Vous commencez avec 12 vies
+- Vous commencez avec 12 vies
 
--Chaque vie perdue est représentée par le pendu qui se dessine progressivement
+- Chaque vie perdue est représentée par le pendu qui se dessine progressivement
 
-##🖼️ Fonctionnalités
+## 🖼️ Fonctionnalités
 
--Interface graphique avec Pygame
+- Interface graphique avec Pygame
 
--Gestion du temps (60 secondes par tentative)
+- Gestion du temps (60 secondes par tentative)
 
--Dessin progressif du pendu
+- Dessin progressif du pendu
 
--Plusieurs niveaux de difficulté
+- Plusieurs niveaux de difficulté
 
-##📌 Installation rapide
+## 📌 Installation rapide
 
--Téléchargez le projet
+- Téléchargez le projet
 
--Installez Pygame avec pip install pygame
+- Installez Pygame avec pip install pygame
 
--Lancez le jeu avec python hangman.py
+- Lancez le jeu avec python hangman.py
 
--Amusez-vous ! 🎉
+- Amusez-vous ! 🎉
